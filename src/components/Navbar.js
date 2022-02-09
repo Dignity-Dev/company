@@ -11,8 +11,7 @@ function Navbar() {
             <nav className="navbar" >
                 <div className="navbar-container" >
                     <Link to="/" className="navbar-logo" >
-                        Dignity
-                        <i classname="fa fa-envelope" />
+                        Dignity <i classname="fa fa-car" />
                     </Link>
                     <div classname="menu-icon" onClick={handClick}>
                         <i classname={click ? 'fas fa-times' : 'fas fa-bars'} />
