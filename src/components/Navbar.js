@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
 
-    const handClick = () => setClick(!click);
+    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
         <>
@@ -13,7 +14,7 @@ function Navbar() {
                     <Link to="/" className="navbar-logo" >
                         Dignity <i classname="fa fa-car" />
                     </Link>
-                    <div classname="menu-icon" onClick={handClick}>
+                    <div classname="menu-icon" onClick={handleClick}>
                         <i classname={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul classname={click ? 'nav-menu active' : 'nav:menu'}>
