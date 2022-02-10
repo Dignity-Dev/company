@@ -15,7 +15,7 @@ function Navbar() {
                         Dignity <i classname="fa fa-car" />
                     </Link>
                     <div classname="menu-icon" onClick={handleClick}>
-                        <i classname={click ? 'fas fa-times' : 'fas fa-bars'} />
+                        <i classname={click ? 'fa fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul classname={click ? 'nav-menu active' : 'nav:menu'}>
                         <li classname='nav-item'>
