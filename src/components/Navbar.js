@@ -30,9 +30,7 @@ function Navbar() {
                         <li classname='nav-item'>
                             <Link to='/sign-up' classname='nav-links' onClick={closeMobileMenu}> Sign Up </Link>
                         </li>
-                        <li classname='nav-item'>
-                            <Link to='/logout' classname='nav-links' onClick={closeMobileMenu}> Sign Up </Link>
-                        </li>
+                       
                     </ul>
                 </div>
             </nav>
